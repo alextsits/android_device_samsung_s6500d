@@ -23,5 +23,8 @@ TARGET_BOOTLOADER_BOARD_NAME := jenad
 ## Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_jena_defconfig
 
+## Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/jenad/bluetooth
+
 ## OTA assert
 TARGET_OTA_ASSERT_DEVICE := jena,jenad,GT-S6500,GT-S6500D
