@@ -13,20 +13,20 @@
 # limitations under the License.
 
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/aokp/configs/gsm.mk)
 
 ## Inherit common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/aokp/configs/common.mk)
 
 ## Inherit device files
 $(call inherit-product, device/samsung/jenad/jenad.mk)
 
 ## Setup device configuration
-PRODUCT_NAME := cm_jenad
+PRODUCT_NAME := aokp_jenad
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := GT-S6500D
-PRODUCT_RELEASE_NAME := GT-S6500D
+PRODUCT_MODEL := GT-S6500
+PRODUCT_RELEASE_NAME := GT-S6500
 PRODUCT_DEVICE := jenad
 
 ## Bootanimation
